@@ -6,6 +6,6 @@ module "vpc" {
 }
 
 
-output "vpc" {
+output "vpc" {            #this is printing
   value = module.vpc
 }
